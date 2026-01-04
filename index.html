@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+    header h1 {
+      text-align: center;
+      margin: 0;
+    }
+    nav {
+      background: #555;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #222;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+    }
+    .hero {
+      background: #007bff;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Your Simple HTML Website</h2>
+    <p>This is a basic responsive website using only HTML and CSS.</p>
+  </section>
+
+  <div class="container">
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p>
+        This website is built using plain HTML and CSS. You can use it as a
+        starter template for your personal or project website.
+      </p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>DevOps & Cloud</li>
+        <li>Automation</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: example@email.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
